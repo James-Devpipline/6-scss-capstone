@@ -1,0 +1,26 @@
+HTML / SCSS Capstone Project:
+
+Replicate the Wordpress Hestia Theme, linked below.
+  - I want everything as close to perfect as you can get it. 
+  - You will need to utilize nearly all of the concepts we've gone over so far.
+  - Use SCSS instead of pure css
+    - You can use just one stylesheet to avoid the hassle of the preprocessor if you want, but try for a quality style folder structure if you can.
+  - All pages on the design should be represented in your website if there are links to them.
+  - I want to see at least 1 of each of the following:
+    - SCSS Variable
+    - mixin
+    - flexbox
+    - grid
+    - pseudo selectors (hover and focus are probably the two big ones)
+    - media queries
+    - imported fonts (try to match theirs as best you can if available)
+    - font awesome icon
+
+These requirements will probably come naturally based on that layout anyways. Don't just limit yourself to 1 though, really stretch yourself.
+
+You do not need to replicate the demo sidebar, the top nav (register and login) bar, or the hero container parallax feature (this is JS related functionality). You also do have to make the hamburger icon dropdown menu be functional, just come up with a workaround solution instead (maybe just stack that navlinks?).
+
+I want this to look good on mobile platforms. 
+
+You should be pushing your code to github as you go along, but you can also submit your live Netlify link to me if you get it hosted.
+https://wordpress.org/themes/hestia/
