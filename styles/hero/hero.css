@@ -1,1 +1,60 @@
-/*# sourceMappingURL=hero.css.map */
+.hero {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.hero .navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  position: sticky;
+  width: 100%;
+}
+.hero .navbar .home-button {
+  width: 100%;
+}
+.hero .navbar .right-navbar {
+  display: flex;
+  align-items: center;
+  margin-left: 50%;
+  width: 100%;
+}
+.hero .navbar .right-navbar a {
+  margin: 0 2% 0 2%;
+}
+.hero .hero-content {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+.hero .hero-content .background-image {
+  width: 100%;
+  justify-content: center;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.hero .hero-content .background-image .image-back {
+  width: 100%;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.hero .hero-content .background-image .image-back img {
+  width: 100%;
+}
+.hero .hero-content .background-image .image-front {
+  width: 100%;
+  position: absolute;
+  top: 50px;
+}
+.hero .hero-content .background-image .image-front img {
+  width: 100%;
+}
+.hero .hero-content .hestia-content {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  position: absolute;
+  margin: 20% 0 0 40%;
+}/*# sourceMappingURL=hero.css.map */

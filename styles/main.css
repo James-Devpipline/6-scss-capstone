@@ -1,1 +1,132 @@
-/*# sourceMappingURL=main.css.map */
+html,
+body {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+}
+html .page-content,
+body .page-content {
+  display: grid;
+  grid-template-rows: 0.5fr 1fr;
+  grid-template-columns: 100%;
+}
+html .page-content a,
+body .page-content a {
+  text-decoration: none;
+  color: #6c6c6c;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.hero .navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  position: sticky;
+  width: 100%;
+}
+.hero .navbar .home-button {
+  width: 100%;
+}
+.hero .navbar .right-navbar {
+  display: flex;
+  align-items: center;
+  margin-left: 50%;
+  width: 100%;
+}
+.hero .navbar .right-navbar a {
+  margin: 0 2% 0 2%;
+}
+.hero .hero-content {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+.hero .hero-content .background-image {
+  width: 100%;
+  justify-content: center;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.hero .hero-content .background-image .image-back {
+  width: 100%;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.hero .hero-content .background-image .image-back img {
+  width: 100%;
+}
+.hero .hero-content .background-image .image-front {
+  width: 100%;
+  position: absolute;
+  top: 50px;
+}
+.hero .hero-content .background-image .image-front img {
+  width: 100%;
+}
+.hero .hero-content .hestia-content {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  position: absolute;
+  margin: 20% 0 0 40%;
+}
+
+.main {
+  display: flex;
+  width: 100%;
+  background-color: #d9d9d9;
+  margin-top: -5px;
+  justify-content: center;
+}
+.main .wrap-around {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 10px;
+  margin-top: -65px;
+  z-index: 1;
+  width: 95%;
+}
+.main .wrap-around .what-we-stand-for {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 150px;
+}
+.main .wrap-around .what-we-stand-for .stand-for-header {
+  text-align: center;
+  padding-top: 2.5%;
+}
+.main .wrap-around .what-we-stand-for .stand-for-header h1 {
+  font-size: 45px;
+  color: #3c4858;
+  padding: 1% 0 5% 0;
+}
+.main .wrap-around .what-we-stand-for .stand-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  text-align: center;
+  -moz-column-gap: 50px;
+       column-gap: 50px;
+  margin: 1% 10%;
+}
+.main .wrap-around .what-we-stand-for .stand-row div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.main .wrap-around .what-we-stand-for .stand-row img {
+  height: 60px;
+  width: 60px;
+}
+.main .wrap-around .about {
+  display: flex;
+  flex-direction: row;
+  padding: 0 150px;
+}/*# sourceMappingURL=main.css.map */
