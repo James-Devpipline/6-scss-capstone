@@ -1,0 +1,30 @@
+.footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 40px;
+  background-color: #323437;
+  justify-content: space-around;
+
+  .footer-left {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 90px;
+
+    & a {
+      color: #e1e1e2;
+      font-size: 12px;
+    }
+    
+  }
+
+  .footer-right {
+    display: flex;
+    justify-content: flex-end;
+    color: #e1e1e2;
+    font-size: 12px;
+
+    & a {
+      color: #e1e1e2;
+    }
+  }
+}

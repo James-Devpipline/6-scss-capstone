@@ -204,4 +204,30 @@ body .page-content a {
   font-size: 18px;
   margin-left: 33px;
   color: #c6c6c6;
+}
+
+.footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 40px;
+  background-color: #323437;
+  justify-content: space-around;
+}
+.footer .footer-left {
+  display: flex;
+  justify-content: space-around;
+  margin: 0 90px;
+}
+.footer .footer-left a {
+  color: #e1e1e2;
+  font-size: 12px;
+}
+.footer .footer-right {
+  display: flex;
+  justify-content: flex-end;
+  color: #e1e1e2;
+  font-size: 12px;
+}
+.footer .footer-right a {
+  color: #e1e1e2;
 }/*# sourceMappingURL=main.css.map */

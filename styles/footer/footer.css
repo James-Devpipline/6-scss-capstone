@@ -1,1 +1,25 @@
-/*# sourceMappingURL=footer.css.map */
+.footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 40px;
+  background-color: #323437;
+  justify-content: space-around;
+}
+.footer .footer-left {
+  display: flex;
+  justify-content: space-around;
+  margin: 0 90px;
+}
+.footer .footer-left a {
+  color: #e1e1e2;
+  font-size: 12px;
+}
+.footer .footer-right {
+  display: flex;
+  justify-content: flex-end;
+  color: #e1e1e2;
+  font-size: 12px;
+}
+.footer .footer-right a {
+  color: #e1e1e2;
+}/*# sourceMappingURL=footer.css.map */
