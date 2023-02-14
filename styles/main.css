@@ -129,4 +129,79 @@ body .page-content a {
   display: flex;
   flex-direction: row;
   padding: 0 150px;
+  justify-content: space-evenly;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3)), url(https://wp-themes.com/wp-content/themes/hestia/assets/img/contact.jpg);
+  padding: 3% 0 3% 0;
+}
+.main .wrap-around .about .about-context {
+  display: flex;
+  flex-direction: column;
+  margin: 0 0 0 10%;
+}
+.main .wrap-around .about .about-context .about-header {
+  margin-right: 5%;
+  color: #ffffff;
+}
+.main .wrap-around .about .about-context .about-paragraph {
+  color: #ffffff;
+}
+.main .wrap-around .about .about-images img {
+  max-width: 90%;
+}
+.main .wrap-around .blog {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 10%;
+  padding: 65px 0 70px 0;
+}
+.main .wrap-around .blog .blog-header {
+  text-align: center;
+  font-size: 37px;
+}
+.main .wrap-around .blog .blog-posts {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
+}
+.main .wrap-around .blog .blog-posts div {
+  display: flex;
+  flex-direction: column;
+  margin: 2.5%;
+  padding: 15px 15px;
+}
+.main .wrap-around .blog .blog-posts div h6 {
+  margin: 10 0;
+}
+.main .wrap-around .contact-banner {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3)), url(https://wp-themes.com/wp-content/themes/hestia/assets/img/contact.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 70px 0;
+}
+.main .wrap-around .contact-banner .banner-card {
+  width: 85%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.main .wrap-around .contact-banner .banner-card .title h2, .main .wrap-around .contact-banner .banner-card .contact-desc h2, .main .wrap-around .contact-banner .banner-card .contact-phone h2 {
+  font-size: 37px;
+  color: #ffffff;
+}
+.main .wrap-around .contact-banner .banner-card .title i, .main .wrap-around .contact-banner .banner-card .contact-desc i, .main .wrap-around .contact-banner .banner-card .contact-phone i {
+  font-size: 36.4px;
+  color: #ffffff;
+}
+.main .wrap-around .contact-banner .banner-card .title h4, .main .wrap-around .contact-banner .banner-card .contact-desc h4, .main .wrap-around .contact-banner .banner-card .contact-phone h4 {
+  font-size: 18px;
+  color: #ffffff;
+}
+.main .wrap-around .contact-banner .banner-card .title p, .main .wrap-around .contact-banner .banner-card .contact-desc p, .main .wrap-around .contact-banner .banner-card .contact-phone p {
+  font-size: 18px;
+  margin-left: 33px;
+  color: #c6c6c6;
 }/*# sourceMappingURL=main.css.map */
