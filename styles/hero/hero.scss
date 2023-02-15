@@ -13,6 +13,9 @@
 
     .home-button {
       width: 100%;
+      & :hover {
+        color: #677893;
+      }
     }
 
     .right-navbar {

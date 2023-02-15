@@ -32,6 +32,9 @@ body .page-content a {
 .hero .navbar .home-button {
   width: 100%;
 }
+.hero .navbar .home-button :hover {
+  color: #677893;
+}
 .hero .navbar .right-navbar {
   display: flex;
   align-items: center;
@@ -323,4 +326,10 @@ body .page-content a {
 }
 .footer .footer-right a {
   color: #e1e1e2;
+}
+
+@media (max-width: 600px) {
+  .hero .navbar {
+    justify-content: flex-end;
+  }
 }/*# sourceMappingURL=main.css.map */
