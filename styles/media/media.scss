@@ -1,9 +1,10 @@
-@media (max-width: 600px) {
+@media (max-width: 983px) {
   .page-content{
     .hero {
       .navbar {
         .right-navbar {
-          margin-left: 20%
+          margin-left: 0;
+          justify-content: end;
         }
       }
     }

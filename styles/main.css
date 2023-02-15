@@ -328,8 +328,9 @@ body .page-content a {
   color: #e1e1e2;
 }
 
-@media (max-width: 600px) {
-  .hero .navbar {
-    justify-content: flex-end;
+@media (max-width: 983px) {
+  .page-content .hero .navbar .right-navbar {
+    margin-left: 0;
+    justify-content: end;
   }
 }/*# sourceMappingURL=main.css.map */
