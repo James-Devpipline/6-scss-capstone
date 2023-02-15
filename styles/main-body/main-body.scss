@@ -1,9 +1,10 @@
 .main {
   display: flex;
+  flex-direction: column;
   width: 100%;
   background-color: #d9d9d9;
   margin-top: -5px;
-  justify-content: center;
+  align-items: center;
 
   .wrap-around {
     display: flex;
@@ -154,6 +155,93 @@
         .title, .contact-desc, .contact-phone {
           @include home-contact-format;
         }
+      }
+    }
+
+    .blog-wrap {
+      display: flex;
+      flex-direction: column;
+      
+      .blog-container {
+        margin: 0 90px 30px 90px;
+        padding: 0 15px;
+
+        .category-container {
+          & h6 {
+            color: #89229b;
+          }
+        }
+
+        .blog-title {
+          & h1 {
+            color: #3c4858;
+          }
+        }
+
+        .blog-description {
+          & p {
+            color: #b8b8b8;
+
+            & a {
+              color: #4d7294;
+            }
+          }
+        }
+
+        .blog-about {
+          color: #5b6572;
+          & a {
+            font-weight: bold;
+            color: #3c4858;
+          }
+        }
+      }
+    
+    }
+
+    .blog-post-wrap {
+      display: flex;
+      flex-direction: column;
+      width: 60%;
+
+      .description-and-media {
+        .categories-and-media {
+          .media {
+            text-align: end;
+            justify-content: flex-start;
+
+            i {
+              font-size: 32px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .related-posts {
+    display: flex;
+    flex-direction: column;
+
+    & h2 {
+      text-align: center;
+      font-size: 37px;
+    }
+    
+    .blog-posts{
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      justify-content: center;
+      padding: 50px 100px;
+
+      .post-wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        border-radius: 6px;
+        background-color: #ffffff;
+        margin: 2.5%;
+        padding: 15px 15px;
       }
     }
   }

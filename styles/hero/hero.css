@@ -2,6 +2,7 @@
   display: flex;
   flex-direction: column;
   width: 100%;
+  background-color: #d9d9d9;
 }
 .hero .navbar {
   display: flex;
@@ -24,7 +25,7 @@
 }
 .hero .hero-content {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   width: 100%;
 }
 .hero .hero-content .background-image {
@@ -53,8 +54,37 @@
 }
 .hero .hero-content .hestia-content {
   display: flex;
-  align-items: center;
   flex-direction: column;
+  align-items: center;
   position: absolute;
   margin: 20% 0 0 40%;
+}
+.hero .hero-content .hero-title {
+  display: flex;
+  justify-content: center;
+  padding: 80px;
+  color: #ffffff;
+  background-color: #cf2e78;
+}
+.hero .hero-content .hero-title h1 {
+  display: flex;
+  align-content: center;
+  flex-wrap: wrap;
+  margin: 30px;
+  font-size: 42px;
+}
+.hero .hero-content .hero-info {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-top: -110px;
+  font-size: 18px;
+}
+.hero .hero-content .hero-info h4 {
+  color: #fefbfc;
+  font-weight: 300;
+}
+.hero .hero-content .hero-info a {
+  color: #ffffff;
+  font-weight: bold;
 }/*# sourceMappingURL=hero.css.map */
